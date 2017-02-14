@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+}
+#waterfall{
+	position: relative;
+	min-height: 500px;
+	margin: 16px auto 0;
+	min-width: 880px;
+	height: 300px;
+}
+.img-container{
+	box-shadow:  0 2px 2px #ccc;
+	position: absolute;
+}
+.img-container a{
+	display: block;
+}
+.img-container a img{
+	display: block;
+	width: 160px;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
