@@ -11,7 +11,7 @@ var waterfall = {
 			imgContainer.className = 'img-container';
 			var a = document.createElement('a');
 			var img = document.createElement('img');
-			img.src = 'images/'+item.src;
+			img.src = './images/'+item.src;
 			a.appendChild(img);
 			imgContainer.appendChild(a);
 			_this.box.appendChild(imgContainer);
