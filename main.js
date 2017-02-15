@@ -1,5 +1,5 @@
 var waterfall = {
-	data: [{'src':'P_015.jpg'},{'src':'P_015.jpg'},{'src':'P_015.jpg'},{'src':'P_015.jpg'}],
+	data: [{'src':'pp15.jpg'},{'src':'pp15.jpg'},{'src':'pp15.jpg'},{'src':'pp15.jpg'}],
 	box : document.getElementById('waterfall'),
 	imgGap : 20,
 	minCols : 5,
