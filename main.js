@@ -95,7 +95,7 @@ var waterfall = {
 	}
 }
 
-// waterfall.init();
+waterfall.init();
 
 
 
