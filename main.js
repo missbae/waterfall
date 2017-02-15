@@ -34,8 +34,10 @@ var waterfall = {
 				imgs[i].style.left = (imgW +this.imgGap) * i + 'px';
 				imgs[i].style.top = 0;
 				arrH.push(imgs[i].offsetHeight);
+				console.log(arrH)
 			}else{
 				var minH = Math.min.apply(null,arrH);
+				console.log(minH)
 				var index = this.getIndex(arrH,minH);
 				imgs[i].style.left = (imgW + this.imgGap) * index + 'px';
 				imgs[i].style.top = minH + this.imgGap +'px';
@@ -94,8 +96,9 @@ var waterfall = {
 
 	}
 }
-
-waterfall.init();
+window.onload = function(){
+	waterfall.init();
+}
 
 
 
